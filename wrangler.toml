@@ -1,0 +1,14 @@
+name = "jotform-to-textmagic"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Your worker will be available at:
+# https://jotform-to-textmagic.<your-subdomain>.workers.dev/webhook
+#
+# To set your secret credentials, run these commands once:
+#   wrangler secret put TEXTMAGIC_USERNAME
+#   wrangler secret put TEXTMAGIC_API_KEY
+#
+# Optional secrets:
+#   wrangler secret put DEFAULT_COUNTRY_CODE   (default is 44 for UK)
+#   wrangler secret put WEBHOOK_SECRET         (extra security, can skip)
