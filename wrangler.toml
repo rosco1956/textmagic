@@ -1,14 +1,9 @@
 name = "jotform-to-textmagic"
 main = "worker.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-12-26"
 
-{
-  "observability": {
-    "traces": {
-      "enabled": true
-    }
-  }
-}
+[observability.traces]
+enabled = true
 
 # Your worker will be available at:
 # https://jotform-to-textmagic.<your-subdomain>.workers.dev/webhook
