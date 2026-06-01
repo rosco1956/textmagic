@@ -5,6 +5,10 @@ compatibility_date = "2024-12-26"
 [observability.traces]
 enabled = true
 
+[observability]
+enabled = true
+head_sampling_rate = 1
+
 # Your worker will be available at:
 # https://jotform-to-textmagic.<your-subdomain>.workers.dev/webhook
 #
